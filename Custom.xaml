@@ -1,111 +1,30 @@
 
-<!-- 这是 PCL2 的主页自定义文件。你可以通过修改这个文件来自定义 PCL2 
-
-主页：添加文本、打开网页、启动游戏，等等。
-     如果你倒腾这个文件把 PCL2 玩炸了，把这个文件直接删除就行了。
-     如果你懂得 WPF 的布局文件编写，你甚至可以做出不少的新玩意儿…… 
-
--->
-    
-<!--这里这个只是调试用，正式版发行时会删除-->
-<local:MyCard CanSwap="False" Title="天天乐 - 一个快乐的生存服★ 
-
-[1.19]" >
+<local:MyCard CanSwap="False" Title="天天乐 - 一个快乐的生存服★[1.19]" >
 	<StackPanel Margin="25,40,23,15">
-		<TextBlock Margin="0,0,0,4" Foreground="#FFA500" 
-
-FontSize="25" HorizontalAlignment="Center" Text="天天都要乐" />
-		<TextBlock Margin="0,0,0,4" Foreground="#9400D3" 
-
-FontSize="15" HorizontalAlignment="Center" Text="嘿，朋友"/>
-		<TextBlock Margin="0,0,0,4" Foreground="#9400D3" 
-
-FontSize="15" HorizontalAlignment="Center" Text="你是否在怀念曾经和好
-
-朋友一起玩耍的场景"/>
-		<TextBlock Margin="0,0,0,4" Foreground="#9400D3" 
-
-FontSize="15" HorizontalAlignment="Center" Text="曾经和基友做过的那些
-
-事"/>
-		<TextBlock Margin="0,0,0,4" Foreground="#9400D3" 
-
-FontSize="15" HorizontalAlignment="Center" Text="一定很难忘吧！"/>
-		<!--<Image Width="130" Height="220" 
-
-HorizontalAlignment="Center" Source="img/68.gif"/>-->
-		<TextBlock Margin="0,0,0,4" Foreground="#9400D3" 
-
-FontSize="15" HorizontalAlignment="Center" Text="如果你热爱MC"/>
-		<TextBlock Margin="0,0,0,4" Foreground="#9400D3" 
-
-FontSize="15" HorizontalAlignment="Center" Text="喜欢追求生存的乐趣"/>
-		<TextBlock Margin="0,0,0,4" Foreground="#9400D3" 
-
-FontSize="15" HorizontalAlignment="Center" Text="那就快加入天天乐吧！
-
-！！"/>
-		<TextBlock Margin="0,0,0,10" Foreground="#FF0000" 
-
-FontSize="20" HorizontalAlignment="Center" Text="前景无限！"/>
-		<TextBlock Margin="0,0,0,4" Foreground="#006400" 
-
-FontSize="15" HorizontalAlignment="Left" Text="目前，服务器1.19新周目" 
-
-/>
-		<TextBlock Margin="0,0,0,4" Foreground="#006400" 
-
-FontSize="15" HorizontalAlignment="Left" Text="上线了众多新玩法，设计
-
-了大量UI材质" />
-		<TextBlock Margin="0,0,0,4" Foreground="#006400" 
-
-FontSize="15" HorizontalAlignment="Left" Text="1.19新服开荒" />
-		<TextBlock Margin="0,0,0,4" Foreground="#006400" 
-
-FontSize="15" HorizontalAlignment="Left" Text="欢迎您的加入" />
+		<TextBlock Margin="0,0,0,4" Foreground="#FFA500" FontSize="25" HorizontalAlignment="Center" Text="天天都要乐" />
+		<TextBlock Margin="0,0,0,4" Foreground="#9400D3" FontSize="15" HorizontalAlignment="Center" Text="嘿，朋友"/>
+		<TextBlock Margin="0,0,0,4" Foreground="#9400D3" FontSize="15" HorizontalAlignment="Center" Text="你是否在怀念曾经和好朋友一起玩耍的场景"/>
+		<TextBlock Margin="0,0,0,4" Foreground="#9400D3" FontSize="15" HorizontalAlignment="Center" Text="曾经和基友做过的那些事"/>
+		<TextBlock Margin="0,0,0,4" Foreground="#9400D3" FontSize="15" HorizontalAlignment="Center" Text="一定很难忘吧！"/>
+		<!--<Image Width="130" Height="220" HorizontalAlignment="Center" Source="img/68.gif"/>-->
+		<TextBlock Margin="0,0,0,4" Foreground="#9400D3" FontSize="15" HorizontalAlignment="Center" Text="如果你热爱MC"/>
+		<TextBlock Margin="0,0,0,4" Foreground="#9400D3" FontSize="15" HorizontalAlignment="Center" Text="喜欢追求生存的乐趣"/>
+		<TextBlock Margin="0,0,0,4" Foreground="#9400D3" FontSize="15" HorizontalAlignment="Center" Text="那就快加入天天乐吧！！！"/>
+		<TextBlock Margin="0,0,0,10" Foreground="#FF0000" FontSize="20" HorizontalAlignment="Center" Text="前景无限！"/>
+		<TextBlock Margin="0,0,0,4" Foreground="#006400" FontSize="15" HorizontalAlignment="Left" Text="目前，服务器1.19新周目" />
+		<TextBlock Margin="0,0,0,4" Foreground="#006400" FontSize="15" HorizontalAlignment="Left" Text="上线了众多新玩法，设计了大量UI材质" />
+		<TextBlock Margin="0,0,0,4" Foreground="#006400" FontSize="15" HorizontalAlignment="Left" Text="1.19新服开荒" />
+		<TextBlock Margin="0,0,0,4" Foreground="#006400" FontSize="15" HorizontalAlignment="Left" Text="欢迎您的加入" />
 	</StackPanel>
 </local:MyCard>
 
-<local:MyCard Margin="0,10,0,0" CanSwap="True" IsSwaped="True" Title="
-
-联系我们" >
+<local:MyCard Margin="0,10,0,0" CanSwap="True" IsSwaped="True" Title="联系我们" >
 	<StackPanel Margin="25,40,23,15">
-		<local:MyHint Margin="0,8,0,0" Text="开黑啦网页版已经
-
-停止支持IE，请使用Edge等高版本浏览器。" />
-		<local:MyHint Margin="0,8,0,2" IsWarn="False" Text="也
-
-可下载开黑啦客户端，支持项目更多！" />
-		<local:MyListItem Margin="-5,15,-5,0" 
-
-Logo="https://img.kookapp.cn/assets/logo_1024.png" Title="开黑啦" 
-
-Info="加入服务器开黑啦社区" 
-		                EventType="打开网页" 
-
-EventData="https://www.kookapp.cn/app/channels/8753374983025154/424508
-
-2499115779/" Type="Clickable" />
-		<local:MyListItem Margin="-5,15,-5,0" 
-
-Logo="https://qzonestyle.gtimg.cn/qzone/qzact/act/external/tiqq/logo.p
-
-ng" Title="QQ" Info="加入服务器1周目QQ群" 
-		                EventType="打开网页" 
-
-EventData="https://jq.qq.com/?_wv=1027&amp;k=qCtymHtn" 
-
-Type="Clickable" /> <!-- 此处的&amp;是&符号的xaml转义 -->
-		<local:MyListItem Margin="-5,15,-5,0" 
-
-Logo="https://qzonestyle.gtimg.cn/qzone/qzact/act/external/tiqq/logo.p
-
-ng" Title="QQ" Info="加入服务器2周目QQ群" 
-		                EventType="打开网页" 
-
-EventData="https://jq.qq.com/?_wv=1027&amp;k=WXinF8GK" 
-
-Type="Clickable" /> <!-- 此处的&amp;是&符号的xaml转义 -->
+		<local:MyHint Margin="0,8,0,0" Text="开黑啦网页版已经停止支持IE，请使用Edge等高版本浏览器。" />
+		<local:MyHint Margin="0,8,0,2" IsWarn="False" Text="也可下载开黑啦客户端，支持项目更多！" />
+		<local:MyListItem Margin="-5,15,-5,0" Logo="https://img.kookapp.cn/assets/logo_1024.png" Title="开黑啦" Info="加入服务器开黑啦社区" 
+		                EventType="打开网页" EventData="https://www.kookapp.cn/app/channels/8753374983025154/4245082499115779/" Type="Clickable" />
+		<local:MyListItem Margin="-5,15,-5,0" Logo="https://qzonestyle.gtimg.cn/qzone/qzact/act/external/tiqq/logo.png" Title="QQ" Info="加入服务器1周目QQ群" EventType="打开网页" EventData="https://jq.qq.com/?_wv=1027&amp;k=qCtymHtn" Type="Clickable" /> 
+		<local:MyListItem Margin="-5,15,-5,0" Logo="https://qzonestyle.gtimg.cn/qzone/qzact/act/external/tiqq/logo.png" Title="QQ" Info="加入服务器2周目QQ群" EventType="打开网页" EventData="https://jq.qq.com/?_wv=1027&amp;k=WXinF8GK" Type="Clickable" /> <!-- 此处的&amp;是&符号的xaml转义 -->
 	</StackPanel>
 </local:MyCard>
