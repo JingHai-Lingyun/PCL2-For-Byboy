@@ -33,6 +33,8 @@
 		                EventType="弹出窗口" EventData="提示|1周目Q群已弃用，请加入2周目Q群&#xA;如果你是真的想加入的话，887993030啦。&#xA;1周目群有入群审核哦，要填写自己即将使用的游戏名（审核通过可能很慢！）" Type="Clickable" /> <!-- 此处的&amp;是&符号的xaml转义 -->
 		<local:MyListItem Margin="-5,15,-5,0" Logo="https://qzonestyle.gtimg.cn/qzone/qzact/act/external/tiqq/logo.png" Title="QQ" Info="加入服务器2周目QQ群" 
 		                EventType="打开网页" EventData="https://jq.qq.com/?_wv=1027&amp;k=WXinF8GK" Type="Clickable" /> <!-- 此处的&amp;是&符号的xaml转义 -->
+		<local:MyListItem Margin="-5,15,-5,0" Logo="pack://application:,,,/images/Blocks/RedstoneLampOn.png" Title="服务器官网" Info="https://tiantianle.rth.app" 
+		                EventType="打开网页" EventData="https://tiantianle.rth.app" Type="Clickable" /> 
 	</StackPanel>
 </local:MyCard>
 
